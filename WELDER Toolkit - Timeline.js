@@ -2,7 +2,7 @@
 // @name         WELDER Toolkit - Timeline
 // @namespace    https://welder.nl/
 // @version      0.1
-// @description  Post Finder, Top5, CSV Export, Engagement Graph, Pinned Detector, Active Accounts Leaderboard + Floating Tools Sidebar + Draggable Tool Output Window + Passcode Lock
+// @description  Post Finder, Top5, CSV Export, Engagement Graph, Pinned Detector, Active Accounts Leaderboard
 // @author       Enrico Rijken
 // @match        https://*.welder.nl/*
 // @match        https://*.welder.cloud/*
@@ -896,7 +896,7 @@
             // 🔒 PASSCODE REQUIRED ON FIRST OPEN (ONCE PER PAGE LOAD)
             if (!toolkitUnlocked) {
                 const code = prompt("Enter toolkit passcode:");
-                if (code !== "0309") {
+                if (code !== "0000") {
                     showStatus("Incorrect passcode", 2000);
                     return;
                 }
