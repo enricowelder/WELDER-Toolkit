@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         WELDER Toolkit - Timeline
+// @name         WLDR Toolkit - Timeline
 // @namespace    https://welder.nl/
 // @version      0.0.1
 // @updateURL    https://raw.githubusercontent.com/enricowelder/WELDER-Toolkit/refs/heads/main/WELDER%20Toolkit%20-%20Timeline.user.js
