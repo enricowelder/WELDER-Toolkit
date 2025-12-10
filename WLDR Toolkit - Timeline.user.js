@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WLDR Toolkit - Timeline
 // @namespace    https://welder.nl/
-// @version      0.0.3
+// @version      0.0.4
 // @updateURL    https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @downloadURL  https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @description  Post Finder, Top5, CSV Export, Engagement Graph, Pinned Detector, Active Accounts Leaderboard
@@ -769,7 +769,7 @@
         /******** FLOATING BUTTON ********/
         const btn = document.createElement("div");
         btn.id = "welderToolkitBtn";
-        btn.innerHTML = "⚙️";
+        btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldr.svg" alt="icon" style="width: 1.75em; height: 1.75em; vertical-align: middle;">';
         btn.style.cssText = `
             position:fixed;
             bottom:20px;
@@ -926,7 +926,7 @@
 
             } else {
                 // CLOSE MAIN TOOLKIT
-                btn.innerHTML = "⚙️";
+                btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldr.svg" alt="icon" style="width: 1.75em; height: 1.75em; vertical-align: middle;">';
                 btn.classList.remove("open");
                 panel.classList.remove("open");
 
