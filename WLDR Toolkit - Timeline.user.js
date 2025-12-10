@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WLDR Toolkit - Timeline
 // @namespace    https://welder.nl/
-// @version      0.0.1
+// @version      0.0.2
 // @updateURL    https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @downloadURL  https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @description  Post Finder, Top5, CSV Export, Engagement Graph, Pinned Detector, Active Accounts Leaderboard
@@ -805,7 +805,7 @@
         `;
         panel.innerHTML = `
             <div style="font-weight:bold;display:flex;align-items:center;gap:6px;margin-bottom:10px;">
-                <img src="https://app.welder.nl/company/logo.svg" style="height:22px;">
+                <img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldr.svg" style="height:22px;">
                 <span>Toolkit</span>
             </div>
 
