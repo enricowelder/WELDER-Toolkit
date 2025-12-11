@@ -13,7 +13,15 @@ Click the link below to install TamperMonkey:
 
 ---
 
-## Step 2: Load WLDR Toolkit
+## Step 2: Enable userscripts in Extension settings
+
+Click the link below to open the Extension settings page of TamperMonkey. In here, enable the loading of userscripts:
+
+👉 **[Enable userscripts](chrome://extensions/?id=dhdgffkkebhmkfjojejmpbldmpobfkfo)**
+
+---
+
+## Step 3: Load WLDR Toolkit
 
 Click the link below to load WLDR Toolkit:
 
