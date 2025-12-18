@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WLDR Toolkit - Timeline
 // @namespace    https://welder.nl/
-// @version      0.0.7
+// @version      0.0.8
 // @updateURL    https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @downloadURL  https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/WLDR%20Toolkit%20-%20Timeline.user.js
 // @description  Post Finder, Top5, CSV Export, Engagement Graph, Pinned Detector, Active Accounts Leaderboard
@@ -769,7 +769,7 @@
         /******** FLOATING BUTTON ********/
         const btn = document.createElement("div");
         btn.id = "welderToolkitBtn";
-        btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldrlogo.svg" alt="icon" style="width: 1.5em; height: 1.5em; vertical-align: middle;">';
+        btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldricon.svg" alt="icon" style="width: 1.5em; height: 1.5em; vertical-align: middle;">';
         btn.style.cssText = `
             position:fixed;
             bottom:20px;
@@ -926,7 +926,7 @@
 
             } else {
                 // CLOSE MAIN TOOLKIT
-                btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldrlogo.svg" alt="icon" style="width: 1.5em; height: 1.5em; vertical-align: middle;">';
+                btn.innerHTML = '<img src="https://raw.githubusercontent.com/enricowelder/WLDR-Toolkit/refs/heads/main/wldricon.svg" alt="icon" style="width: 1.5em; height: 1.5em; vertical-align: middle;">';
                 btn.classList.remove("open");
                 panel.classList.remove("open");
 
